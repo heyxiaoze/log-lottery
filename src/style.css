@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+::before,
+::after {
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 body,
 html {
     margin: 0;
