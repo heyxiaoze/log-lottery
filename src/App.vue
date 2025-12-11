@@ -39,15 +39,15 @@ function judgeMobile() {
   return isAndroid || isIOS
 }
 // 判断是否chrome或者edge访问
-function judgeChromeOrEdge() {
-  const ua = navigator.userAgent
-  const isChrome = ua.includes('Chrome')
-  const isEdge = ua.includes('Edg')
+// function judgeChromeOrEdge() {
+//   const ua = navigator.userAgent
+//   const isChrome = ua.includes('Chrome')
+//   const isEdge = ua.includes('Edg')
 
-  system.setIsChrome(isChrome)
+//   system.setIsChrome(isChrome)
 
-  return isChrome || isEdge
-}
+//   return isChrome || isEdge
+// }
 onMounted(() => {
   themeChange(localTheme.value.name)
   setCurrentPrize()
